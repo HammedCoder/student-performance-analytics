@@ -6,12 +6,12 @@ The objective of data profiling is to assess the dataset's structure, completene
 
 ## 4.1 Dataset Profile
 
-| Attribute | Value |
-|-----------|------:|
-| Number of Records | 5,000 |
-| Number of Columns | 16 |
-| Missing Values | 0 |
-| Duplicate Records | 0 |
+| Attribute         |      Value |
+| ----------------- | ---------: |
+| Number of Records |      5,000 |
+| Number of Columns |         16 |
+| Missing Values    |          0 |
+| Duplicate Records |          0 |
 | Unique Identifier | Student_ID |
 
 ### Initial Observation
@@ -20,11 +20,11 @@ The dataset is complete with no missing values or duplicate rows, indicating goo
 
 ## 4.2 Data Types
 
-| Data Type | Columns |
-|-----------|---------|
+| Data Type     | Columns                                                                                                           |
+| ------------- | ----------------------------------------------------------------------------------------------------------------- |
 | Text (Object) | Student_ID, Gender, Parental_Education, Internet_Access, Extracurricular_Activities, Performance_Level, Pass_Fail |
-| Integer | Age, Class, Attendance_Percentage, Math_Score, Science_Score, English_Score, Previous_Year_Score |
-| Decimal | Study_Hours_Per_Day, Final_Percentage |
+| Integer       | Age, Class, Attendance_Percentage, Math_Score, Science_Score, English_Score, Previous_Year_Score                  |
+| Decimal       | Study_Hours_Per_Day, Final_Percentage                                                                             |
 
 ### Observation
 
@@ -32,17 +32,17 @@ The dataset is complete with no missing values or duplicate rows, indicating goo
 
 ## 4.3 Completeness Assessment
 
-| Check | Result |
-|--------|--------|
-| Missing Values | ✅ None |
-| Blank Rows | ✅ None detected |
-| Duplicate Records | ✅ None |
+| Check             | Result           |
+| ----------------- | ---------------- |
+| Missing Values    | ✅ None          |
+| Blank Rows        | ✅ None detected |
+| Duplicate Records | ✅ None          |
 
 ## 4.4 Uniqueness Assessment
 
-| Column | Expected | Result |
-|--------|----------|--------|
-| Student_ID | Unique | ✅ Unique |
+| Column     | Expected | Result    |
+| ---------- | -------- | --------- |
+| Student_ID | Unique   | ✅ Unique |
 
 ## 4.5 Consistency Checks
 
@@ -54,13 +54,13 @@ The following checks will be validated during data cleaning:
 
 ## 4.6 Validity Checks
 
-| Variable | Expected Rule |
-|----------|---------------|
-| Age | Reasonable school-age range |
-| Attendance_Percentage | Between 0 and 100 |
-| Study_Hours_Per_Day | Positive values |
-| Subject Scores | Between 0 and 100 |
-| Final_Percentage | Between 0 and 100 |
+| Variable              | Expected Rule               |
+| --------------------- | --------------------------- |
+| Age                   | Reasonable school-age range |
+| Attendance_Percentage | Between 0 and 100           |
+| Study_Hours_Per_Day   | Positive values             |
+| Subject Scores        | Between 0 and 100           |
+| Final_Percentage      | Between 0 and 100           |
 
 ## 4.7 Potential Outlier Review
 
@@ -76,13 +76,13 @@ Potential outliers will be reviewed for:
 
 ## 4.8 Profiling Summary
 
-| Quality Dimension | Status |
-|-------------------|--------|
-| Completeness | ✅ Excellent |
-| Uniqueness | ✅ Excellent |
-| Missing Values | ✅ None |
-| Duplicate Records | ✅ None |
-| Data Types | ✅ Mostly Appropriate |
+| Quality Dimension | Status                                     |
+| ----------------- | ------------------------------------------ |
+| Completeness      | ✅ Excellent                               |
+| Uniqueness        | ✅ Excellent                               |
+| Missing Values    | ✅ None                                    |
+| Duplicate Records | ✅ None                                    |
+| Data Types        | ✅ Mostly Appropriate                      |
 | Overall Readiness | ✅ Suitable for Data Cleaning and Analysis |
 
 ## Key Findings
