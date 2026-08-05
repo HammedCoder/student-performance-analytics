@@ -13,6 +13,7 @@ This project analyzes student performance data to identify the key factors influ
 - [x] Business Understanding
 - [x] Project Planning
 - [x] Data Understanding
+- [ ] Data Profiling
 - [ ] Data Cleaning
 - [ ] Data Quality Assessment
 - [ ] Exploratory Data Analysis
