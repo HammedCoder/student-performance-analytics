@@ -11,8 +11,8 @@ This project analyzes student performance data to identify the key factors influ
 ## Project Roadmap
 
 - [x] Business Understanding
-- [ ] Project Planning
-- [ ] Data Understanding
+- [x] Project Planning
+- [x] Data Understanding
 - [ ] Data Cleaning
 - [ ] Data Quality Assessment
 - [ ] Exploratory Data Analysis
