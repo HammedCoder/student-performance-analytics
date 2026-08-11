@@ -129,14 +129,14 @@ No invalid or out-of-range values were identified.
 
 The categorical columns were inspected for consistency.
 
-| Column                     | Observation                          |
-| -------------------------- | ------------------------------------ |
-| Gender                     | Consistent values                    |
-| Parental_Education         | Graduate, High_School, Post_Graduate |
-| Internet_Access            | Consistent values                    |
-| Extracurricular_Activities | Consistent values                    |
-| Performance_Level          | Consistent values                    |
-| Pass_Fail                  | Consistent values                    |
+| Column                     | Observation                         |
+| -------------------------- | ----------------------------------- |
+| Gender                     | Consistent values                   |
+| Parental_Education         | Graduate, High School, Postgraduate |
+| Internet_Access            | Consistent values                   |
+| Extracurricular_Activities | Consistent values                   |
+| Performance_Level          | Consistent values                   |
+| Pass_Fail                  | Consistent values                   |
 
 No inconsistencies, spelling variations, or unexpected categories were identified.
 
